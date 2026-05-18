@@ -4,6 +4,8 @@ enableCORS = false
 enableXsrfProtection = false
 address = "0.0.0.0"
 port = 8501
+enableWebsocketCompression = false
 
 [browser]
 gatherUsageStats = false
+serverAddress = "85.17.244.54"
