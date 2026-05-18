@@ -6,7 +6,7 @@ from pypdf import PdfWriter
 import io
 
 # Constants
-BASE_DIR = "."  # Current directory is the project root
+BASE_DIR = "data"  # Data directory contains the subject folders
 SUBJECTS = ["math", "reading_writing"]
 
 st.set_page_config(page_title="SAT Question Compiler", layout="wide")
